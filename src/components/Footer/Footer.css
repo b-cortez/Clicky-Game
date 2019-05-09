@@ -1,0 +1,43 @@
+
+.footer{
+    background: #6956af;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    overflow: auto;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 4rem;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding: 90px 0 20px 0; 
+}
+.footer>.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #5138a1;
+    padding: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+	font-weight: 600;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+div {
+    display: block;
+}
+
+.footer>.bottom>img{
+    width: 30px;
+    top: 0px;
+	left: 2px;
+	display: inline;
+	padding-bottom: 2px;
+}
