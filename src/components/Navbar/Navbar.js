@@ -8,7 +8,7 @@ class Navbar extends Component {
          
           <li className=""><a href>Clicky Game</a></li>
           <li className="">Click an image to begin!</li>
-          <li className="">Score:    {this.props.score} | Top Score: {this.props.score}</li>
+          <li className="">Score:&nbsp;{this.props.score}&nbsp; |&nbsp; Top Score: &nbsp;{this.props.topScore}</li>
       </nav>
     );
   }
